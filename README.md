@@ -1,5 +1,6 @@
 # api_final
 api final
+
 Работа с постами:
 
   GET  http://localhost:8000/api/v1/posts/        #просмотреть все посты
