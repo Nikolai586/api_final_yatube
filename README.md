@@ -27,4 +27,22 @@ api final
    
    PATCH http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/  #Частично обновить комментарий для публикации по id
    
+   JWT-токен:
+   
+   http://localhost:8000/api/v1/token/           #Получить JWT-токен
+   
+   http://localhost:8000/api/v1/token/refresh/   #Обновить JWT-токен
+   
+   Работа с FOLLOW:
+   
+   GET http://localhost:8000/api/v1/follow/  #Получить список всех подписчиков
+   
+   POST http://localhost:8000/api/v1/follow/ #Создать подписку
+   
+   Работа с GROUP:
+    
+   GET http://localhost:8000/api/v1/group/  #Получить список всех групп
+   
+   POST http://localhost:8000/api/v1/group/ #Создать новую группу
+   
    DELETE http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/ #Удалить комментарий для публикации по id
