@@ -5,7 +5,7 @@ api final
 
   GET  http://localhost:8000/api/v1/posts/        #просмотреть все посты
   
-       http://localhost:8000/api/v1/posts/{id}/   #Получить публикацию по id
+  GET  http://localhost:8000/api/v1/posts/{id}/   #Получить публикацию по id
        
   POST  http://localhost:8000/api/v1/posts/       #создание поста
   
@@ -19,7 +19,7 @@ api final
 
    GET  http://localhost:8000/api/v1/posts/{post_id}/comments/                #Получить список всех комментариев публикации
    
-        http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/   #Получить комментарий для публикации по id
+   GET  http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/   #Получить комментарий для публикации по id
         
    POST http://localhost:8000/api/v1/posts/{post_id}/comments/                #Создать новый комментарий для публикации
    
