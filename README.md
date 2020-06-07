@@ -27,6 +27,8 @@ api final
    
    PATCH http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/  #Частично обновить комментарий для публикации по id
    
+   DELETE http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/ #Удалить комментарий для публикации по id
+   
    JWT-токен:
    
    http://localhost:8000/api/v1/token/           #Получить JWT-токен
@@ -45,4 +47,3 @@ api final
    
    POST http://localhost:8000/api/v1/group/ #Создать новую группу
    
-   DELETE http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/ #Удалить комментарий для публикации по id
