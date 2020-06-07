@@ -1,11 +1,17 @@
 # api_final
 api final
 Работа с постами:
+
   GET  http://localhost:8000/api/v1/posts/        #просмотреть все посты
+  
        http://localhost:8000/api/v1/posts/{id}/   #Получить публикацию по id
+       
   POST  http://localhost:8000/api/v1/posts/       #создание поста
+  
   PUT   http://localhost:8000/api/v1/posts/{id}/  #Обновить публикацию по id
+  
   PATCH http://localhost:8000/api/v1/posts/{id}/  #Частично обновить публикацию по id
+  
   DELETE http://localhost:8000/api/v1/posts/{id}/ #Удалить публикацию по id
  
 Работа с COMMENTS:
