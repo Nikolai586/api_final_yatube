@@ -10,8 +10,13 @@ api final
  
 Работа с COMMENTS:
    GET  http://localhost:8000/api/v1/posts/{post_id}/comments/                #Получить список всех комментариев публикации
+   
         http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/   #Получить комментарий для публикации по id
+        
    POST http://localhost:8000/api/v1/posts/{post_id}/comments/                #Создать новый комментарий для публикации
+   
    PUT  http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/   #Обновить комментарий для публикации по id
+   
    PATCH http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/  #Частично обновить комментарий для публикации по id
+   
    DELETE http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/ #Удалить комментарий для публикации по id
