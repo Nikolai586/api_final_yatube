@@ -9,6 +9,7 @@ api final
   DELETE http://localhost:8000/api/v1/posts/{id}/ #Удалить публикацию по id
  
 Работа с COMMENTS:
+
    GET  http://localhost:8000/api/v1/posts/{post_id}/comments/                #Получить список всех комментариев публикации
    
         http://localhost:8000/api/v1/posts/{post_id}/comments/{comment_id}/   #Получить комментарий для публикации по id
