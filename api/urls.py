@@ -6,7 +6,7 @@ from rest_framework_simplejwt.views import (
 from rest_framework.routers import DefaultRouter
 from django.urls import path, include
 from .views import PostViewSet, CommentViewSet, GroupViewSet, FollowList
-#from rest_framework.authtoken import views as token_views
+
 
 
 router = DefaultRouter()
